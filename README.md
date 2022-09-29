@@ -53,13 +53,13 @@ AI가 선택했던 단어와 얼마나 유사하다고 예측했는지, 그리�
 ## Backend API
 <img src = "https://user-images.githubusercontent.com/87285536/193041730-c613155c-b3d6-4283-a3ab-21890b0989a3.png" width="100%">
 
-## AI Dataset
+## AI, Dataset
 
 - DataSet : crawling at Google with Selenium, OpenCV
 - Training  [Teachable Machine with Google](https://teachablemachine.withgoogle.com/)
 
 
-<img src ="https://user-images.githubusercontent.com/87285536/183132209-ccbc1f56-cd43-4d44-abcf-9aa5f6730491.gif" width="100%">
+<img src =https://user-images.githubusercontent.com/87285536/193063153-2af2d735-9d02-44bd-9d71-d608746b91e4.gif width="100%">
 
 ## Tech Stack
 
@@ -129,11 +129,11 @@ $  python manage.py runserver
 
 - Prometheus의 시각화 도구가 부족하여 이를 직접 사용하지는 않고 대게 Grafana라는 Data Visualization tool을 이용하여 시각화하고 있다.
 
-<img src="https://user-images.githubusercontent.com/87285536/193057436-22e9bbe3-c8f9-4fc1-a6ef-f5be73ac2f9e.png"width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/87285536/193060775-c3105898-8663-4b1d-aca0-4b3b30c0f712.png" width="50%" height="50%"/>
 
 Requests / Request Latency / Responses / Response Status
 
-# ™️ⁱ **Members of Team-B**
+#**Members of Team-B**
 |이름|개발분야|소개페이지|
 |---|---|---|
 |김준형|Front-end,AI|https://github.com/junhyeongkim2
