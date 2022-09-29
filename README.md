@@ -1,54 +1,60 @@
-# [Animal World]
+# [Zoodiac]
 
 
-[www.여기는 보이는 곳 오른쪽은 도메인.com](http://www.drawingdoodle.com/)
+[http://ec2-3-38-109-64.ap-northeast-2.compute.amazonaws.com/](http://ec2-3-38-109-64.ap-northeast-2.compute.amazonaws.com/)
 
-[마찬가지](여기 도메인)
+
 
 사용자의 얼굴 이미지를 분석해 닮은 십이지신을 알려주는 서비스
 
 <p align="center">
-<img src = "">
+<img src = "https://user-images.githubusercontent.com/87285536/193127614-a3ef1d62-ced6-4a48-a728-26cd088078e6.gif">
 </p>
 
 ## System Architecture
 
-<img src = "">
+<img src = "https://user-images.githubusercontent.com/87285536/193125830-27b49554-7abc-4943-9bd4-63962997fd41.png">
 
 ## Features
 
 - Main Feature: 사용자가 업로드한 이미지를 AI가 분석해 닮은 동물 정보를 제공
-- Additional Feature: (*추가적인 기능은여기에 명시)
+- Additional Feature: 운세 제공 
 
 <p align="center">
-<img src = "" width="49%"> <img src = "" width="49%">
+<img src = "https://user-images.githubusercontent.com/87285536/193129053-688dbd74-55ef-451f-aaea-a79a25b5ffd8.png" width="49%"> <img src = "https://user-images.githubusercontent.com/87285536/193128698-d2a4ba94-4150-4dc6-9408-57ee638c5477.png" width="49%">
 </p>
 
-**Main**|**Information**
+**Main**|**Login**
 -----|-----
-<img src = "" width="100%">|<img src = "" width="100%">
-서비스에 참여하는 인원수를 설정한 후, start 버튼을 눌러 시작합니다.|이 프로젝트와 팀원 깃허브링크, 참고한 웹사이트 링크,  서비스 참여 방법을 제공합니다.
+<img src = "https://user-images.githubusercontent.com/87285536/193129273-d621d531-e589-4ad8-bcf3-fb73d78319f7.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/193129886-2d08577d-2c42-4a0a-b43a-ae26a923f39d.png" width="100%">
+비회원, 회원을 선택하여 진행할 수 있습니다|회원로그인을 선택한 페이지입니다.
 
-**Choose a word to draw**|**Draw the word on canvas**
+**Signup**|**Upload the Image**
 -----|-----
-<img src = "" width="100%">|<img src = "" width="100%">
-랜덤으로 생성되는 단어 중에 그리고 싶은 단어를 고릅니다.|앞서 선택했던 단어에 맞게 그림을 그립니다
+<img src = "https://user-images.githubusercontent.com/87285536/193129373-a782e96b-4318-4e61-9d0d-4ff65a98a362.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/193130099-5ac86817-de04-4924-9df6-35b1fefd325d.png" width="100%">
+회원가입 페이지 입니다.|사진을 업로드 하시면 AI가 사진을 분석합니다.
 
-**The results of one doodle**|**The results of several doodles**
+**The results of Zoodiac**|**Fortune page**
 -----|-----
-<img src = "" width="100%">|<img src = "" width="100%">
-AI가 선택했던 단어와 얼마나 유사하다고 예측했는지, 그리고 이 그림을 보고 유사하다고 생각한 상위5개 결과를 유저의 그림과 함께 보여줍니다.|참여한 유저들의 그림과 함께 선택했던 단어의 유사도를 기준으로 순위를 매겨 보여줍니다.
+<img src = "https://user-images.githubusercontent.com/87285536/193130497-fca8c9da-28ef-4669-9e32-4402d8b3a853.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/193130779-39249a2e-bc8c-4437-ae6e-23818e41525c.png" width="100%">
+AI가 분석한 상위 3개의 결과를 그림과 함께 보여줍니다.|참여한 유저들의 그림과 함께 선택했던 단어의 유사도를 기준으로 순위를 매겨 보여줍니다.
+
+**Mypage**|**Ranking page**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/193131987-42c1c801-efa4-4435-9138-7b68add99158.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/193132399-39a0d4cf-e2eb-4296-8ae9-8edfad2746eb.png" width="100%">
+로그인한 계정들로 분석한 결과를 전부 확인 할 수 있습니다. |참여한 유저들의 분석 결과를 유사도를 기준으로 순위를 매겨 보여줍니다.
 
 
 
 ## URL
-수정필요
-- /user/                        → Signup page 
-- /user/auth/              → Login page
-- /animals/greatlist           → Show fortune page
-- /animal      → draw your doodle!
-- /resultone        → result page for single user
-- /resultmany     → result page for multi users
+
+- /     　　　　　          → Startpage
+- /Signinpage    → Login page
+- /Signuppage  →Signuppage
+- /Mainpage          → upload your image
+- /Resultpage      → show your result
+- /Rankpage       → show rank
+- /Intropage     → tell the fortune
 
 ## Backend API
 <img src = "https://user-images.githubusercontent.com/87285536/193041730-c613155c-b3d6-4283-a3ab-21890b0989a3.png" width="100%">
@@ -141,5 +147,4 @@ Requests / Request Latency / Responses / Response Status
 |이지윤|Front-end,DevOps|https://github.com/EASYhz
 |정윤호|Back-end, AI|https://github.com/yunhobb
 |한지원|Back-end|https://github.com/jiwon83
-
 
