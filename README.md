@@ -1,1 +1,145 @@
-# .github
+# [Animal World]
+
+
+[www.여기는 보이는 곳 오른쪽은 도메인.com](http://www.drawingdoodle.com/)
+
+[마찬가지](여기 도메인)
+
+사용자의 얼굴 이미지를 분석해 닮은 십이지신을 알려주는 서비스
+
+<p align="center">
+<img src = "">
+</p>
+
+## System Architecture
+
+<img src = "">
+
+## Features
+
+- Main Feature: 사용자가 업로드한 이미지를 AI가 분석해 닮은 동물 정보를 제공
+- Additional Feature: (*추가적인 기능은여기에 명시)
+
+<p align="center">
+<img src = "" width="49%"> <img src = "" width="49%">
+</p>
+
+**Main**|**Information**
+-----|-----
+<img src = "" width="100%">|<img src = "" width="100%">
+서비스에 참여하는 인원수를 설정한 후, start 버튼을 눌러 시작합니다.|이 프로젝트와 팀원 깃허브링크, 참고한 웹사이트 링크,  서비스 참여 방법을 제공합니다.
+
+**Choose a word to draw**|**Draw the word on canvas**
+-----|-----
+<img src = "" width="100%">|<img src = "" width="100%">
+랜덤으로 생성되는 단어 중에 그리고 싶은 단어를 고릅니다.|앞서 선택했던 단어에 맞게 그림을 그립니다
+
+**The results of one doodle**|**The results of several doodles**
+-----|-----
+<img src = "" width="100%">|<img src = "" width="100%">
+AI가 선택했던 단어와 얼마나 유사하다고 예측했는지, 그리고 이 그림을 보고 유사하다고 생각한 상위5개 결과를 유저의 그림과 함께 보여줍니다.|참여한 유저들의 그림과 함께 선택했던 단어의 유사도를 기준으로 순위를 매겨 보여줍니다.
+
+
+
+## URL
+수정필요
+- /user/                        → Signup page 
+- /user/auth/              → Login page
+- /animals/greatlist           → Show fortune page
+- /animal      → draw your doodle!
+- /resultone        → result page for single user
+- /resultmany     → result page for multi users
+
+## Backend API
+<img src = "https://user-images.githubusercontent.com/87285536/193041730-c613155c-b3d6-4283-a3ab-21890b0989a3.png" width="100%">
+
+## AI Dataset
+
+- DataSet : crawling at Google with Selenium, OpenCV
+- Training  [Teachable Machine with Google](https://teachablemachine.withgoogle.com/)
+
+
+<img src ="https://user-images.githubusercontent.com/87285536/183132209-ccbc1f56-cd43-4d44-abcf-9aa5f6730491.gif" width="100%">
+
+## Tech Stack
+
+|Frontend|Backend|AI|DevOps|Etc|
+|:------:|:---:|:---:|:---:|:---:|
+|![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)<br>![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?&style=for-the-badge&logo=TailwindCSS&logoColor=white)<br>![axios](https://img.shields.io/badge/axios-0.27.2-661ddf.svg?)|![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/django-092E20.svg?style=for-the-badge&logo=django&logoColor=white)<br>![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![AmazonS3](https://img.shields.io/badge/AmazonS3-569A31?style=for-the-badge&logo=AmazonS3&logoColor=white)<br>![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=white)<br>![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=Gunicorn&logoColor=white)<br>![Redis](https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white)</br>|![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)</br>![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)<br>![Celery](https://img.shields.io/badge/Celery-37814A.svg?style=for-the-badge&logo=Celery&logoColor=white)<br>![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white)<br>![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=Opencv&logoColor=white)</br>|![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)<br>![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)<br>![Docker](https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)|![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)<br>![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=Grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)<br><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=black"><img src="https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=GitKraken&logoColor=white">
+
+
+## **Initialization**
+- clone the repository
+
+```bash
+$ git clone https://github.com/sungnam-team-b/docker.git
+$ git submodule foreach git pull origin main
+$ git submodule update
+delete docker-compoes.yaml at backend folder
+$ cd docker
+```
+
+### 1) Docker
+
+- docker compose build and up
+
+```bash
+$ cd DoodleDoodle
+$ docker-compose up --build
+```
+
+### 2) Local **execution**
+
+```bash
+$ cd DoodleDoodle/frontend
+$ npm start
+$ cd ../backend/backend
+$  python manage.py runserver
+```
+
+## JWT
+
+- used_library
+    - `djangorestframework-jwt`
+- JWT_Settings.py
+    - set JWT’s default_settings
+        
+        <img src="https://user-images.githubusercontent.com/41159837/183143775-f17eea8b-c3d6-48cc-9ba1-c050fc3072fe.png" width="50%" height="50%"/>
+        
+- JWT on frontEND
+    - restore tokens by using redux
+    - if we need some user data, we don’t need to make connection with backend
+    by opening JWT payload, we can get user data
+    
+- JWT on backEND
+    - after we identify user by check login data, give authorization by using JWT
+    - by using refresh_token, we enhanced our security level
+
+##  Monitoring
+
+
+## Prometheus
+
+- exporter가 매트릭을 수집하고 HTTP 통신을 통해 metric data를 가져갈 수 있게 /metrics 라는 HTTP 엔드포인트를 제공한다. 그러면 Prometheus server가 이 exporter의 엔드포인트에 HTTP GET 요청을 이용하여 metric data를 pull 한다.
+- 해당 노드의 metric data
+
+<img src="https://user-images.githubusercontent.com/41159837/183143866-e2bb4650-3098-4f79-8e45-c3eb89ef032b.png" width="50%" height="50%"/>
+
+## Grafana
+
+- Prometheus의 시각화 도구가 부족하여 이를 직접 사용하지는 않고 대게 Grafana라는 Data Visualization tool을 이용하여 시각화하고 있다.
+
+<img src="https://user-images.githubusercontent.com/87285536/193057436-22e9bbe3-c8f9-4fc1-a6ef-f5be73ac2f9e.png"width="50%" height="50%"/>
+
+Requests / Request Latency / Responses / Response Status
+
+# ™️ⁱ **Members of Team-B**
+|이름|개발분야|소개페이지|
+|---|---|---|
+|김준형|Front-end,AI|https://github.com/junhyeongkim2
+|이정우|Back-end,DevOps|https://github.com/RayLee-Kor
+|이지윤|Front-end,DevOps|https://github.com/EASYhz
+|정윤호|Back-end, AI|https://github.com/yunhobb
+|한지원|Back-end|https://github.com/jiwon83
+
+
