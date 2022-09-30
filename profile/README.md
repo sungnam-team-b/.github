@@ -66,6 +66,27 @@ AI가 분석한 상위 3개의 결과를 그림과 함께 보여줍니다.|참�
 ## Backend API
 <img src = "https://user-images.githubusercontent.com/87285536/193041730-c613155c-b3d6-4283-a3ab-21890b0989a3.png" width="100%">
 
+### **users api**
+
+- ***api/v1/users/***
+    - `GET` : 회원가입 시 아이디, 닉네임 중복 체크 결과
+    - `POST` : 회원 가입 정보 저장
+- ***api/v1/users/auth***
+    - `POST` : access token, refresh token 갱신
+
+### **animals api**
+
+- ***api/v1/animals/animalist***
+    - `GET` : 모든 십이지신 운세 정보
+- ***api/v1/animals/rank***
+    - `GET` : 가장 십이지신과 닮은 사람들의 랭킹 (기간 : 일주일)
+- ***api/v1/animals/user/{user_id}***
+    - `POST` : 사용자가 업로드한 사진 분석하는 task id
+- ***api/v1/animals/user/{user_id}/tasks/{task_id}***
+    - `POST` : task id을 이용한 사진 분석 결과
+- ***api/v1/animals/user/{user_id}/mypage***
+    - `GET` : 사용자가 올린 사진들에 대한 정보
+
 ## AI, Dataset
 
 - DataSet : crawling at Google with Selenium, OpenCV
