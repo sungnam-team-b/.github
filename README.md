@@ -90,14 +90,14 @@ $ cd docker
 - docker compose build and up
 
 ```bash
-$ cd DoodleDoodle
+$ cd zoodiac
 $ docker-compose up --build
 ```
 
 ### 2) Local **execution**
 
 ```bash
-$ cd DoodleDoodle/frontend
+$ cd zoodiac/frontend
 $ npm start
 $ cd ../backend/backend
 $  python manage.py runserver
